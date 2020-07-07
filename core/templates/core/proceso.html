@@ -1,0 +1,124 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}
+Proceso
+{% endblock title %}
+
+{% block content %}
+<section class="page-section">
+    <div class="container">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/prod.jpg' %}" alt="">
+        <div class="about-heading-content">
+            <div class="row">
+                <div class="col-xl-9 col-lg-10 mx-auto">
+                    <div class="bg-faded rounded p-5">
+                        <h2 class="section-heading mb-4">
+                            <span class="section-heading-upper">La magia para elaborar mezcal</span>
+                            <span class="section-heading-lower">Proceso</span>
+                        </h2>
+                        <p>El mezcal se obtiene por doble destilación del jugo fermentado de las piñas cosechadas de las
+                            plantas de agave.</p>
+                        <p> La producción de nuestro mezcal es artesanal, ya que para su elaboración intervienen algunas
+                            técnicas empleadas desde la época prehispánica que continúan vivas hasta nuestros días y que
+                            propician una consistencia y sabor únicos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="product-item">
+            <div class="product-item-title d-flex">
+                <div class="bg-faded p-5 d-flex mr-auto rounded">
+                    <h2 class="section-heading mb-0">
+                        <span class="section-heading-upper">Selección y limpieza de agaves</span>
+                        <span class="section-heading-lower">Obtención de piñas</span>
+                    </h2>
+                </div>
+            </div>
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+                src="{% static 'core/img/jima.jpg' %}" alt="">
+            <div class="product-item-description d-flex ml-auto">
+                <div class="bg-faded p-5 rounded">
+                    <p class="mb-0">Nuestros cosechadores experimentados seleccionan las piñas de las plantas
+                        de agave que tienen de 7 a 9 años de vida.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section">
+    <div class="container">
+        <div class="product-item">
+            <div class="product-item-title d-flex">
+                <div class="bg-faded p-5 d-flex mr-auto rounded">
+                    <h2 class="section-heading mb-0">
+                        <span class="section-heading-upper">Cocción de piñas de agave</span>
+                        <span class="section-heading-lower">Horneado</span>
+                    </h2>
+                </div>
+            </div>
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+                src="{% static 'core/img/horneado.jpg' %}" alt="">
+            <div class="product-item-description d-flex ml-auto">
+                <div class="bg-faded p-5 rounded">
+                    <p class="mb-0">Las fábricas de mezcal integran hornos de tierra para cocer las piñas de los agaves.
+                        Estos hornos se construyen con hoyos en la tierra y se utiliza ocote y encino que le dan un
+                        exquisito sabor ahumado al mezcal.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section">
+    <div class="container">
+        <div class="product-item">
+            <div class="product-item-title d-flex">
+                <div class="bg-faded p-5 d-flex mr-auto rounded">
+                    <h2 class="section-heading mb-0">
+                        <span class="section-heading-upper">Activación de las piñas </span>
+                        <span class="section-heading-lower">Molienda</span>
+                    </h2>
+                </div>
+            </div>
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+                src="{% static 'core/img/molienda.jpg' %}" alt="">
+            <div class="product-item-description d-flex ml-auto">
+                <div class="bg-faded p-5 rounded">
+                    <p class="mb-0">Las piñas de agave se maceran y trituran en molinos artesanales de piedra previo al
+                        proceso de fermentación. Durante es proceso se obtiene el líquido almacenado en los tejidos de
+                        las piñas de agave.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section">
+    <div class="container">
+        <div class="product-item">
+            <div class="product-item-title d-flex">
+                <div class="bg-faded p-5 d-flex mr-auto rounded">
+                    <h2 class="section-heading mb-0">
+                        <span class="section-heading-upper">Producción de alcohol</span>
+                        <span class="section-heading-lower">Fermentación</span>
+                    </h2>
+                </div>
+            </div>
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+                src="{% static 'core/img/fermentacion.jpg' %}" alt="">
+            <div class="product-item-description d-flex ml-auto">
+                <div class="bg-faded p-5 rounded">
+                    <p class="mb-0">Los jugos de las piñas de agaves se almacenan en tinas de madera para que fermente
+                        de manera natural
+                        durante 30 días.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
